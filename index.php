@@ -105,7 +105,7 @@ $ahmadnassr = $user;//$facebook->api('/ahmad.nassr');
  
  <tr> Name: Ahmad Hammad </tr><br />
 
-    <tr>Sterio007</tr><br />
+    <tr>Sterio 007</tr><br />
 
   <tr>Go to main Page: </tr><br />
 <tr><h1><a href="mainpage.php">Enter Main Page</a> </h1></tr>
