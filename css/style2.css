@@ -1,0 +1,98 @@
+*{margin:0; padding:0;}
+body{background:#666;}
+#box{ width:960px;margin:0 auto; background:#FFF;border-radius:15px;height:650px; }
+#head
+{
+width:100%;
+clear:both;
+margin:auto;
+
+text-align:center;
+height:125px;
+
+}
+#logo
+{
+width:250px;height:90px; margin:10px;float:left;
+}
+
+#nameAndAddress{width:300px;height:30px;float:right;margin:30px;font-family:cursive;}
+#hseperator{width:960px; background:#00144a;height:30px;color:black;}
+#content{ width:960px; background:#FFF;height:400px; }
+#disp
+{
+overflow:scroll;
+padding:0;
+margin:0;
+float:right;
+width:85%;
+height:400px;
+background:#FFF;
+}
+
+/*******************************************************/
+#nav
+{
+float:left;
+padding:0;
+margin:0;
+height:400px;
+width:15%;
+
+}
+
+#nav ul 
+{
+list-style-type:none;
+float:left;
+margin:0;
+padding:0;
+}
+
+#nav ul li
+{
+width:150px;
+}
+
+
+#nav ul li a
+{
+text-decoration:none;
+color:#FFFFFF;
+text-align:center;
+font:14px cursive bold ;
+float:left;
+
+width:150px;
+
+background:#c46343;
+ border-left:3px solid #f60;
+text-shadow:1px 1px 2px  #B0D049;
+margin :0 0 1px 0;
+padding:5px;
+}
+
+#nav ul li a:hover{
+ border-left:3px solid #FFB400;
+ background:#6C8D13;
+}
+#nav ul li ul{
+ display:none;
+}
+#nav ul li:hover ul{/*ACCE48*/
+ display:block;
+}
+#nav ul li ul li a{
+text-shadow:1px 1px 2px  #729A07;
+background:#ACCE48;
+color:#515151;
+}
+#nav ul li ul li a:hover{
+ border-left:3px solid #FFB444;
+ background:#BADB5A;
+}
+
+
+
+
+

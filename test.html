@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Register</title>
+
+<SCRIPT TYPE="text/javascript" src="scripts/formval.js" ></script>
+ <style type="text/css">
+ 
+
+div.divForimg img
+  {
+  display:inline;
+  margin:3px;
+  border:1px solid #ffffff;
+  }
+div.divForimg a:hover img
+  {
+  border:1px solid #25bbe8;
+  }
+div.desc
+  {
+  border-radius:5px;
+  background:#25bbe8;
+  text-align:center;
+  font-weight:normal;
+  width:180px;
+  margin:0px;
+  position:relative;
+  bottom:75px;
+  }
+ 
+ </style>
+ 
+ </head>
+ <body>
+
+<SCRIPT TYPE="text/javascript">
+
+// Only script specific to this form goes here.
+
+// General-purpose routines are in a separate file.
+<!--
+  function validateOnSubmit() {
+
+    var elem;
+
+    var errs=0;
+
+    // execute all element validations in reverse order, so focus gets
+
+    // set to the first one in error.
+
+
+
+    if (!validateEmail(document.forms[0].email, 'inf_email', true)) errs += 1; 
+
+
+
+
+    if (errs>1)  alert('There are fields '+errs+' which need correction before sending');
+
+    if (errs==1) alert('There is a field which needs correction before sending');
+
+
+
+    return (errs==0);
+
+  }
+//-->
+</SCRIPT>
+
+
+<form  onsubmit="return validateOnSubmit()" action="www.google.com" method="post">
+<table border=1 width=100%>
+
+<tr><td>Email :</td><td><input class="input"  type="text" id="email" name="email" ONCHANGE="validateEmail(this, 'inf_email', true);" /></td><td id="inf_email">Required</td></tr>
+
+</table>
+<input type="submit" value="Register">
+</form>
+
+  
+  </body>
+  </html>
