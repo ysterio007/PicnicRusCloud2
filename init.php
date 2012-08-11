@@ -1,7 +1,7 @@
 <?php
 if(!isset($dbcon)){
-$DB_HOST='localhost';
-$DB_USER='root';
+$DB_HOST='instance23872.db.xeround.com:15588';
+$DB_USER='ahmadhammad';
 $DB_PASS='';
 $DB_NAME='ahmadhammad1081443';
 
