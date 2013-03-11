@@ -78,7 +78,7 @@ $ahmadnassr = $user;//$facebook->api('/ahmad.nassr');
       <a href="<?php echo $logoutUrl; ?>">Logout</a>
     <?php else: ?>
       <div>
-        <a href="<?php echo $loginUrl; ?>">Login with Facebook</a>
+        <a href="<?php echo $loginUrl; ?>">Login with89 Facebook</a>
       </div>
     <?php endif ?>
 
