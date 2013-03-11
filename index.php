@@ -58,7 +58,7 @@ $ahmadnassr = $user;//$facebook->api('/ahmad.nassr');
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
  <head>
   <meta http-equiv="Content-Script-Type" content="text/javascript"/>
-  <title>Welcome Page</title>
+  <title>Welcomejj Page</title>
    <style>
       body {
         font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
